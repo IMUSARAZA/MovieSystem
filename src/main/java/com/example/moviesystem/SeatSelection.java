@@ -39,7 +39,7 @@ public class SeatSelection {
 
     int bookingCounter=0;
 
-    ArrayList<Integer> arrSeatno = new ArrayList<Integer>();
+    static ArrayList<Integer> arrSeatno = new ArrayList<Integer>();
 
     public void start()  {
 
