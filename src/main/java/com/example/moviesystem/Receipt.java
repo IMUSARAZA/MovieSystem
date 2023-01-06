@@ -36,7 +36,7 @@ public class Receipt {
 
         receiptLayout.setPadding(new Insets(10,10,10,10));
 
-        Image img1 = new Image(getClass().getResourceAsStream("order 2.png"));
+        Image img1 = new Image(getClass().getResourceAsStream("Order.png"));
 
         ImageView imageView1 = new ImageView(img1);
 

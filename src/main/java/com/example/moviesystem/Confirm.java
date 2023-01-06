@@ -68,37 +68,36 @@ public class Confirm {
         text1.setText(a);
         text1.setFont(Font.font("Times New Roman", FontWeight.BOLD, FontPosture.REGULAR, 25));
         text1.setFill(Color.WHITE);
-        text1.setX(610);
+        text1.setX(620);
         text1.setY(410);
 
         Text text2 = new Text();
         text2.setText(b);
         text2.setFont(Font.font("Times New Roman", FontWeight.BOLD, FontPosture.REGULAR, 25));
         text2.setFill(Color.WHITE);
-        text2.setX(640);
+        text2.setX(650);
         text2.setY(410);
 
         Text text3 = new Text();
         text3.setText(c);
         text3.setFont(Font.font("Times New Roman", FontWeight.BOLD, FontPosture.REGULAR, 25));
         text3.setFill(Color.WHITE);
-        text3.setX(670);
+        text3.setX(680);
         text3.setY(410);
 
         Text text4 = new Text();
         text4.setText(d);
         text4.setFont(Font.font("Times New Roman", FontWeight.BOLD, FontPosture.REGULAR, 25));
         text4.setFill(Color.WHITE);
-        text4.setX(700);
+        text4.setX(710);
         text4.setY(410);
 
         Text text5 = new Text();
         text5.setText(e);
         text5.setFont(Font.font("Times New Roman", FontWeight.BOLD, FontPosture.REGULAR, 25));
         text5.setFill(Color.WHITE);
-        text5.setX(730);
+        text5.setX(740);
         text5.setY(410);
-
 
         confirmLayout.getChildren().add(imageView1);
         confirmLayout.getChildren().add(text1);
@@ -106,9 +105,6 @@ public class Confirm {
         confirmLayout.getChildren().add(text3);
         confirmLayout.getChildren().add(text4);
         confirmLayout.getChildren().add(text5);
-
-
-
 
 
         Scene confirmScene = new Scene(confirmLayout,1300,1000);
